@@ -173,6 +173,9 @@
       "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#tipoOperacion",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
+    "ConductaInfraccion" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#ConductaInfraccion"
+    },
     "Operación_Sujeta" : {
       "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#Operación_Sujeta"
     },
@@ -224,6 +227,9 @@
     },
     "SujetoPasivo" : {
       "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#SujetoPasivo"
+    },
+    "SancionInfraccion" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#SancionInfraccion"
     },
     "Obligación_General" : {
       "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#Obligación_General"

@@ -360,6 +360,26 @@ This section provides details for each class and property defined by Ontología 
                title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#cometeInfraccion">Comete</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
+         <dt>has members</dt>
+         <dd>
+            <a href="#InfraccionEnAutoliquidacion"
+               title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#InfraccionEnAutoliquidacion">infraccion en autoliquidacion</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#InfraccionFaltaComunicacionEjecucionDeObra"
+               title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#InfraccionFaltaComunicacionEjecucionDeObra">infraccion falta comunicacion ejecucion de obra</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#InfraccionFaltaComunicacionEntregasPorEjecucion"
+               title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#InfraccionFaltaComunicacionEntregasPorEjecucion">infraccion falta comunicacion entregas por ejecucion</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#InfraccionIncorrectaRepercusionImpuesto"
+               title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#InfraccionIncorrectaRepercusionImpuesto">infraccion incorrecta repercusion impuesto</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#InfraccionNoConsignacion"
+               title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#InfraccionNoConsignacion">infraccion no consignacion</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#InfraccionNoPresentarDeclaracion"
+               title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#InfraccionNoPresentarDeclaracion">infraccion no presentar declaracion</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#InfraccionRepercusionImprocedenteEnFactura"
+               title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#InfraccionRepercusionImprocedenteEnFactura">infraccion repercusion improcedente en factura</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#InfraccionenAdquisiondeBienes"
+               title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#InfraccionenAdquisiondeBienes">infraccionen adquisionde bienes</a>
+            <sup class="type-ni" title="named individual">ni</sup>
+         </dd>
       </dl>
    </div>
    <div class="entity" id="Item">
@@ -625,11 +645,15 @@ Una operación es un hecho que puede o no estar gravado con el impuesto.</span>
          <dd>
             <a href="#actividadEmpresarial"
                title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#actividadEmpresarial">Actividad empresarial</a>
-            <sup class="type-dp" title="data property">dp</sup>, <a href="#direccion"
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#cometeInfraccion"
+               title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#cometeInfraccion">Comete</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#direccion"
                title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#direccion">Dirección</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#nombre"
                title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#nombre">Nombre</a>
-            <sup class="type-dp" title="data property">dp</sup>, <a href="#tieneRol"
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#tieneObligacion"
+               title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#tieneObligacion">Tiene Obligación</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#tieneRol"
                title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#tieneRol">Tiene rol</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#Tiene_DNI"
                title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#Tiene_DNI">tiene d n i</a>
@@ -772,14 +796,10 @@ En ocasiones, también responden del pago del tributo personas distintas del suj
          <dd>
             <a href="#acogidoA"
                title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#acogidoA">Acogido a un Regímen Especial</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#cometeInfraccion"
-               title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#cometeInfraccion">Comete</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#emiteFactura"
                title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#emiteFactura">Emite</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#realizaOperacion"
                title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#realizaOperacion">Realiza operación</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#tieneObligacion"
-               title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#tieneObligacion">Tiene Obligación</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>has members</dt>
@@ -895,8 +915,8 @@ En ocasiones, también responden del pago del tributo personas distintas del suj
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#SujetoPasivo"
-                  title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#SujetoPasivo">Sujeto Pasivo</a>
+               <a href="#Persona"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#Persona">Persona</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -1143,8 +1163,8 @@ En ocasiones, también responden del pago del tributo personas distintas del suj
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#SujetoPasivo"
-                  title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#SujetoPasivo">Sujeto Pasivo</a>
+               <a href="#Persona"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#Persona">Persona</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -1237,6 +1257,10 @@ En ocasiones, también responden del pago del tributo personas distintas del suj
             title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#cantidad">Cantidad</a>
       </li>
       <li>
+         <a href="#ConductaInfraccion"
+            title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#ConductaInfraccion">Conducta de la infracción</a>
+      </li>
+      <li>
          <a href="#codigoMoneda"
             title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#codigoMoneda">Código moneda</a>
       </li>
@@ -1297,6 +1321,10 @@ En ocasiones, también responden del pago del tributo personas distintas del suj
             title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#precisionSobreExencion">
             <span>precision sobre exencion</span>
          </a>
+      </li>
+      <li>
+         <a href="#SancionInfraccion"
+            title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#SancionInfraccion">Sanción de la Infracción</a>
       </li>
       <li>
          <a href="#Tiene_DNI"
@@ -1398,6 +1426,17 @@ En ocasiones, también responden del pago del tributo personas distintas del suj
                   title="http://www.w3.org/2001/XMLSchema#integer">integer</a>
             </dd>
          </dl>
+      </div>
+   </div>
+   <div class="entity" id="ConductaInfraccion">
+      <h3>Conducta de la infracción<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#ConductaInfraccion</p>
+      <div class="comment">
+         <span class="markdown">Las  infracciones  tributarias  en  el  IVA  se  califican  y  sancionan  conforme  a  la  LGT  y  demás  normas  de  general aplicación.</span>
       </div>
    </div>
    <div class="entity" id="codigoMoneda">
@@ -1755,6 +1794,17 @@ En ocasiones, también responden del pago del tributo personas distintas del suj
          </dl>
       </div>
    </div>
+   <div class="entity" id="SancionInfraccion">
+      <h3>Sanción de la Infracción<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#SancionInfraccion</p>
+      <div class="comment">
+         <span class="markdown">Las  infracciones  tributarias  en  el  IVA  se  califican  y  sancionan  conforme  a  la  LGT  y  demás  normas  de  general aplicación.</span>
+      </div>
+   </div>
    <div class="entity" id="Tiene_DNI">
       <h3>tiene d n i<sup class="type-dp" title="data property">dp</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
@@ -1932,6 +1982,54 @@ En ocasiones, también responden del pago del tributo personas distintas del suj
          <a href="#Factura_2"
             title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#Factura_2">
             <span>factura 2</span>
+         </a>
+      </li>
+      <li>
+         <a href="#InfraccionEnAutoliquidacion"
+            title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#InfraccionEnAutoliquidacion">
+            <span>infraccion en autoliquidacion</span>
+         </a>
+      </li>
+      <li>
+         <a href="#InfraccionFaltaComunicacionEjecucionDeObra"
+            title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#InfraccionFaltaComunicacionEjecucionDeObra">
+            <span>infraccion falta comunicacion ejecucion de obra</span>
+         </a>
+      </li>
+      <li>
+         <a href="#InfraccionFaltaComunicacionEntregasPorEjecucion"
+            title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#InfraccionFaltaComunicacionEntregasPorEjecucion">
+            <span>infraccion falta comunicacion entregas por ejecucion</span>
+         </a>
+      </li>
+      <li>
+         <a href="#InfraccionIncorrectaRepercusionImpuesto"
+            title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#InfraccionIncorrectaRepercusionImpuesto">
+            <span>infraccion incorrecta repercusion impuesto</span>
+         </a>
+      </li>
+      <li>
+         <a href="#InfraccionNoConsignacion"
+            title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#InfraccionNoConsignacion">
+            <span>infraccion no consignacion</span>
+         </a>
+      </li>
+      <li>
+         <a href="#InfraccionNoPresentarDeclaracion"
+            title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#InfraccionNoPresentarDeclaracion">
+            <span>infraccion no presentar declaracion</span>
+         </a>
+      </li>
+      <li>
+         <a href="#InfraccionRepercusionImprocedenteEnFactura"
+            title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#InfraccionRepercusionImprocedenteEnFactura">
+            <span>infraccion repercusion improcedente en factura</span>
+         </a>
+      </li>
+      <li>
+         <a href="#InfraccionenAdquisiondeBienes"
+            title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#InfraccionenAdquisiondeBienes">
+            <span>infraccionen adquisionde bienes</span>
          </a>
       </li>
       <li>
@@ -2467,6 +2565,240 @@ Transporte  realizado  en  autotaxis;  ni  el  servicio  de  transporte  de  ór
                   target="_blank"
                   title="http://www.w3.org/2001/XMLSchema#float">float</a>
             </span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="InfraccionEnAutoliquidacion">
+      <h3>infraccion en autoliquidacion<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#InfraccionEnAutoliquidacion</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#Infraccion"
+               title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#Infraccion">Infracción</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#ConductaInfraccion"
+               title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#ConductaInfraccion">Conducta de la infracción</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"No consignación en la autoliquidación de las cantidades de las que sea sujeto pasivo el destinatario de las operaciones, conforme a la LIVA art.84.uno.2º, 3º, 4º, art.85 y art.140 quinquies (nº 9506 s.)."@es</span>
+         </dd>
+         <dd>
+            <a href="#SancionInfraccion"
+               title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#SancionInfraccion">Sanción de la Infracción</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"10% de la cuota correspondiente a las operaciones no consignadas. Se reduce conforme a LGT art.188.1 (nº 14314 )."@es</span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="InfraccionFaltaComunicacionEjecucionDeObra">
+      <h3>infraccion falta comunicacion ejecucion de obra<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#InfraccionFaltaComunicacionEjecucionDeObra</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#Infraccion"
+               title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#Infraccion">Infracción</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#ConductaInfraccion"
+               title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#ConductaInfraccion">Conducta de la infracción</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"Falta de comunicación en plazo o comunicación incorrecta por parte de los destinatarios de ejecuciones de obra a quienes las realicen, que (nº 9522):
+- están actuando, con respecto a dichas operaciones, en su condición de empresarios o profesionales.
+- las operaciones corresponden a un proceso de urbanización de terrenos o de construcción o rehabilitación de edificaciones."@es</span>
+         </dd>
+         <dd>
+            <a href="#SancionInfraccion"
+               title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#SancionInfraccion">Sanción de la Infracción</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"1% de las cuotas devengadas de las operaciones en las que se ha incumplido, con un mínimo de 300 euros y un máximo de 10.000 euros. En el caso de la sanción en ejecuciones de obra, esta se reduce conforme a LGT art.188.1 (nº 14314)."@es</span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="InfraccionFaltaComunicacionEntregasPorEjecucion">
+      <h3>infraccion falta comunicacion entregas por ejecucion<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#InfraccionFaltaComunicacionEntregasPorEjecucion</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#Infraccion"
+               title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#Infraccion">Infracción</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#ConductaInfraccion"
+               title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#ConductaInfraccion">Conducta de la infracción</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"Falta de comunicación en plazo o de forma incorrecta de los destinatarios de las operaciones en las entregas por ejecución de garantía sobre inmuebles, a quienes las realicen, de la circunstancia de estar actuando en su condición de sujeto pasivo (nº 9520)."@es</span>
+         </dd>
+         <dd>
+            <a href="#SancionInfraccion"
+               title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#SancionInfraccion">Sanción de la Infracción</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"1% de las cuotas devengadas de las operaciones en las que se ha incumplido, con un mínimo de 300 euros y un máximo de 10.000 euros. En el caso de la sanción en ejecuciones de obra, esta se reduce conforme a LGT art.188.1 (nº 14314)."@es</span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="InfraccionIncorrectaRepercusionImpuesto">
+      <h3>infraccion incorrecta repercusion impuesto<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#InfraccionIncorrectaRepercusionImpuesto</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#Infraccion"
+               title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#Infraccion">Infracción</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#ConductaInfraccion"
+               title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#ConductaInfraccion">Conducta de la infracción</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"Obtención, mediante acción u omisión culposa o dolosa, de una incorrecta repercusión del Impuesto, siempre que el destinatario no tenga derecho a la deducción total de las cuotas soportadas. Los infractores serán las personas quesean responsables de la acción u omisión"@es</span>
+         </dd>
+         <dd>
+            <a href="#SancionInfraccion"
+               title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#SancionInfraccion">Sanción de la Infracción</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"50% del beneficio indebidamente obtenido."@es</span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="InfraccionNoConsignacion">
+      <h3>infraccion no consignacion<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#InfraccionNoConsignacion</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#Infraccion"
+               title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#Infraccion">Infracción</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#ConductaInfraccion"
+               title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#ConductaInfraccion">Conducta de la infracción</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"No consignación en la declaración-liquidación, o hacerlo de forma incorrecta o incompleta, de cuotas tributarias de operaciones de importación liquidadas por la Administración por los sujetos pasivos acogidos al diferimiento del ingreso (nº 11053)."@es</span>
+         </dd>
+         <dd>
+            <a href="#SancionInfraccion"
+               title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#SancionInfraccion">Sanción de la Infracción</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"10% de las cuotas devengadas relativas a las liquidaciones de las Aduanas no consignadas."@es</span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="InfraccionNoPresentarDeclaracion">
+      <h3>infraccion no presentar declaracion<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#InfraccionNoPresentarDeclaracion</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#Infraccion"
+               title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#Infraccion">Infracción</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#ConductaInfraccion"
+               title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#ConductaInfraccion">Conducta de la infracción</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"No presentar o hacerlo de forma incorrecta o incompleta, declaraciones-liquidaciones relativas a las operaciones asimiladas a las importaciones (salidas de las áreas exentas y abandono de los regímenes suspensivos (nº 9904 s.)."@es</span>
+         </dd>
+         <dd>
+            <a href="#SancionInfraccion"
+               title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#SancionInfraccion">Sanción de la Infracción</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"Multa pecuniaria del 10% de la cuota de las operaciones no consignadas o consignadas incorrectamente. Cuando se trate de declaraciones relativas al abandono del RDDA, la sanción anterior se aplicará siempre que la suma total de cuotas declaradas sea inferior a las efectivamente devengadas en el período. Se reduce conforme a LGT art.188.1 (nº 14314)."@es</span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="InfraccionRepercusionImprocedenteEnFactura">
+      <h3>infraccion repercusion improcedente en factura<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#InfraccionRepercusionImprocedenteEnFactura</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#Infraccion"
+               title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#Infraccion">Infracción</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#ConductaInfraccion"
+               title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#ConductaInfraccion">Conducta de la infracción</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"Repercusión improcedente en factura, por personas que no sean sujetos pasivos del Impuesto, de cuotas impositivas sin que se haya procedido al ingreso de las mismas."@es</span>
+         </dd>
+         <dd>
+            <a href="#SancionInfraccion"
+               title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#SancionInfraccion">Sanción de la Infracción</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"100%  de  las  cuotas  indebidamente  repercutidas,  con un  mínimo  de  300  euros  por  cada  factura  en  que  se produzca la infracción"@es</span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="InfraccionenAdquisiondeBienes">
+      <h3>infraccionen adquisionde bienes<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#InfraccionenAdquisiondeBienes</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#Infraccion"
+               title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#Infraccion">Infracción</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#ConductaInfraccion"
+               title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#ConductaInfraccion">Conducta de la infracción</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"Adquisición   de   bienes   por   parte   de   sujetos   pasivos acogidos al régimen especial del recargo de equivalencia sin que en las correspondientes facturas figure expresamente consignado  el  recargo  de  equivalencia, salvo cuando el adquirente hubiera dado cuenta de ello a la Administración en la forma reglamentada."@es</span>
+         </dd>
+         <dd>
+            <a href="#SancionInfraccion"
+               title="http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#SancionInfraccion">Sanción de la Infracción</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"50% del importe del recargo de equivalencia que hubiera debido repercutirse, con un importe mínimo de 30 euros por cada adquisición sin la repercusión del recargo."@es</span>
          </dd>
       </dl>
    </div>
