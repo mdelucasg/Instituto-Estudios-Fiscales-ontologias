@@ -1,0 +1,229 @@
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos> <http://www.w3.org/2002/07/owl#imports> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva/1.0.0> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#acogidoA
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#acogidoA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#actividadEmpresarial
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#actividadEmpresarial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#baseImponible
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#baseImponible> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#cantidad
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#cantidad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#codigoMoneda
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#codigoMoneda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#contieneItem
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#contieneItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#descripcion
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#descripcion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#direccionPostal
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#direccionPostal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#domicilioFiscal
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#domicilioFiscal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#emiteFactura
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#emiteFactura> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#fechaExpedicion
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#fechaExpedicion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#identificador
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#identificador> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#identificadorFiscal
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#identificadorFiscal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#importe
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#importe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#nombre
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#nombre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#realizaOperacion
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#realizaOperacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#recibeFactura
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#recibeFactura> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#tieneCabecera
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#tieneCabecera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#tieneExencion
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#tieneExencion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#tieneLugarRealizacion
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#tieneLugarRealizacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#tipoImpositivo
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#tipoImpositivo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#Cabecera
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#Cabecera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#Factura
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#Factura> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#Item
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#Item> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#LugarRealizacion
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#LugarRealizacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#OperacionSujeta
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#OperacionSujeta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#Persona
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#Persona> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#RolReceptor
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#RolReceptor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#RolSujetoPasivo
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#RolSujetoPasivo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Aldea_del_Fresno
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Aldea_del_Fresno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Aldea_del_Fresno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#LugarRealizacion> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Aleman_S.L
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Aleman_S.L> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Aleman_S.L> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#RolSujetoPasivo> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Aleman_S.L> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#emiteFactura> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Factura_1> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Aleman_S.L> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#realizaOperacion> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#CompraMateriales> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Cabecera_1
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Cabecera_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Cabecera_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#Cabecera> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Cabecera_1> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#codigoMoneda> "EUR"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Cabecera_1> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#descripcion> "Materiales para montaje de una cadena industrial" .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Cabecera_1> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#domicilioFiscal> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Location_1> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Cabecera_1> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#fechaExpedicion> "2020-09-01T21:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Cabecera_1> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#identificador> "EJEMPLO_1" .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Cabecera_1> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#importe> "1149500.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Cabecera_2
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Cabecera_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Cabecera_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#Cabecera> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Cabecera_2> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#codigoMoneda> "EUR" .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Cabecera_2> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#descripcion> "Compra de un reloj e inversión en oro" .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Cabecera_2> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#fechaExpedicion> "2021-05-12T12:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Cabecera_2> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#identificador> "Ejemplo 2" .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Cabecera_2> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#importe> "3630.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#CompraMateriales
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#CompraMateriales> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#CompraMateriales> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#OperacionSujeta> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Coruña
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Coru\u00F1a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Coru\u00F1a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#LugarRealizacion> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Dependiente_2
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Dependiente_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Dependiente_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#Persona> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Dependiente_2> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#actividadEmpresarial> "4777" .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Excures
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Excures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Excures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#RolReceptor> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Excures> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#recibeFactura> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Factura_1> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Factura_1
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Factura_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Factura_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#Factura> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Factura_1> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#baseImponible> "950000.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Factura_1> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#contieneItem> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#MaterialesObra> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Factura_1> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#tieneCabecera> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Cabecera_1> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Factura_1> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#tieneLugarRealizacion> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Coru\u00F1a> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Factura_2
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Factura_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Factura_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#Factura> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Factura_2> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#baseImponible> "8000.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Factura_2> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#contieneItem> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Item_Oro> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Factura_2> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#contieneItem> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Item_Reloj> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Factura_2> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#tieneCabecera> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Cabecera_2> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Factura_2> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#tieneLugarRealizacion> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Aldea_del_Fresno> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Item_Oro
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Item_Oro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Item_Oro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#Item> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Item_Oro> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#baseImponible> "5000.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Item_Oro> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#cantidad> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Item_Oro> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#tipoImpositivo> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Item_Reloj
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Item_Reloj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Item_Reloj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#Item> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Item_Reloj> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#baseImponible> "3000.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Item_Reloj> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#cantidad> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Item_Reloj> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#tipoImpositivo> "21.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Location_1
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Location_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Location_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#LugarRealizacion> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Location_1> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#domicilioFiscal> "Múnich, Alemania" .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#MaterialesObra
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#MaterialesObra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#MaterialesObra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#Item> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#MaterialesObra> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#cantidad> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#MaterialesObra> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#tipoImpositivo> "21.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Operacion_2
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Operacion_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Operacion_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#OperacionSujeta> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Operacion_2> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#tieneExencion> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#ExencionRegimenOro> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Persona_2
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Persona_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Persona_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#Persona> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Persona_2> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#direccionPostal> "Aldea del Fresno" .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Persona_2> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#identificadorFiscal> "01234567G" .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Persona_2> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#nombre> "Alfredo Del Bosque Frondoso" .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Receptor_2
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Receptor_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Receptor_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#RolReceptor> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#SujPasivo_2
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#SujPasivo_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#SujPasivo_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#RolSujetoPasivo> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#SujPasivo_2> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#acogidoA> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#RegimenEspecialInversionEnOro> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#SujPasivo_2> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#emiteFactura> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Factura_2> .
+<http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#SujPasivo_2> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva#realizaOperacion> <http://vocab.linkeddata.es/datosabiertos/def/hacienda/iva-ejemplos#Operacion_2> .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/
